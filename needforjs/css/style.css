@@ -128,14 +128,39 @@ html,
 body {
   height: 100%;
 }
-.start {
+.score {
   display: inline-block;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 50px;
   font-size: 20px;
   color: #fff;
   background-color: #000;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+}
+.container{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.start {
+  font-size: 20px;
+  font-family: sant-serif;
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+  border-radius: 15px;
+}
+.easy, .medium, .hard {
+  font-size: 20px;
+  font-family: sant-serif;
+  color: #fff;
+  background-color: #000;
+  margin-top: 10px;
   padding: 10px;
   border-radius: 15px;
 }
